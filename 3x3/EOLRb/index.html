@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf8" />
+    <title>non-MU EOLRbs | cuar03</title>
+    <script src="https://cdn.cubing.net/v0/js/cubing/twisty" type="module" defer></script>
+    <script src="../../schemes.js" defer></script>
+    <link rel="stylesheet" href="../../styles.css" />
+</head>
+
+<body>
+<p class="for-oh">purple text = alg for One Handed</p>
+
+<table border="1">
+
+<tr><th colspan="2"><h1>6-flip</h1></th></tr>
+
+<th colspan="2">one edge on U, other in DF</th>
+<tr align="center">
+    <th><twisty-player alg="R U' r' U' M' U r U r'" class="cube_eolrb"></twisty-player></th>
+    <th><twisty-player alg="r' F R U M' U' R' F' R" class="cube_eolrb"></twisty-player></th>
+</tr>
+<tr align="center">
+    <td>R U' r' U' M' U r U r'</td>
+    <td>r' F R U M' U' R' F' R<br><span class="for-oh">r' U r U M' U' r' U' R<br>(U) r U' r' U' M U r U R'</span></td>
+</tr>
+
+<th colspan="2">one edge on U, other in DB</th>
+<tr>
+    <th><twisty-player alg="r' F R U M' U' R' F' R U" class="cube_eolrb"></twisty-player></th>
+    <th><twisty-player alg="R U' r' U' M' U r U r' U" class="cube_eolrb"></twisty-player></th>
+</tr>
+<tr align="center">
+    <td>r' F R U M' U' R' F' R<br><span class="for-oh">(U) r U' r' U' M U r U R'</span></td>
+    <td>R U' r' U' M' U r U r'</td>
+</tr>
+
+<th colspan="2">UL/UR, adjacent</th>
+<tr>
+    <th><twisty-player alg="r' F R U M' U' R' F' r U2 M' U" class="cube_eolrb"></twisty-player></th>
+    <th><twisty-player alg="R U' r' U' M' U r U R' U2 M' U" class="cube_eolrb"></twisty-player></th>
+</tr>
+<tr align="center">
+    <td>r' F R U M' U' R' F' r U2 M'<br><span class="for-oh">r' U r U M' U' r' U' r U2 M'</span></td>
+    <td>R U' r' U' M' U r U R' U2 M'</td>
+</tr>
+
+<tr><th colspan="2"><h1>1/1f</h1></th></tr>
+
+<th colspan="2">UF/DB, adjacent</th>
+<tr>
+    <th><twisty-player alg="R' F R U M' U' R' F' r" class="cube_eolrb"></twisty-player></th>
+    <th><twisty-player alg="r U' r' U' M' U r U R'" class="cube_eolrb"></twisty-player></th>
+</tr>
+<tr align="center">
+    <td>R' F R U M' U' R' F' r<br><span class="for-oh">R' U r U M' U' r' U' r</span></td>
+    <td>r U' r' U' M' U r U R'</td>
+</tr>
+
+<tr><th colspan="2"><h1>1/1b</h1></th></tr>
+
+<th colspan="2">UB/DF, adjacent</th>
+<tr>
+    <th><twisty-player alg="r' F R U M U' R' F' R" class="cube_eolrb"></twisty-player></th>
+    <th><twisty-player alg="R U' r' U' M U r U r'" class="cube_eolrb"></twisty-player></th>
+</tr>
+<tr align="center">
+    <td>r' F R U M U' R' F' R<br><span class="for-oh">r' U r U M U' r' U' R</span></td>
+    <td>R U' r' U' M U r U r'</td>
+</tr>
+
+</table>
+</body>
+</html>

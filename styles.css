@@ -1,0 +1,40 @@
+body {
+  font-family: Segoe UI;
+}
+
+li {
+  list-style-type: circle;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-collapse: collapse;
+}
+
+td {
+  width: 200px;
+  min-width: 200px;
+  max-width: 200px;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+twisty-player[class^="cube_"] {
+  width: 256px;
+  width: 100%
+}
+
+twisty-player[class^="compcmll"] {
+  width: 200px
+}
+
+.for-oh {
+  color: blueviolet;
+}
+
+.new {
+  background-color: gold;
+}

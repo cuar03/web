@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf8" />
+    <title>CMLL | cuar03</title>
+    <script src="https://cdn.cubing.net/v0/js/cubing/twisty" type="module" defer></script>
+    <script src="../../schemes.js" defer></script>
+    <link rel="stylesheet" href="../../styles.css" />
+</head>
+
+<body>
+
+<p class="for-oh">purple text = alg for One Handed</p>
+<!-- <a href='CMLLEO/index.html'>for CMLLEO stuff click here</a> -->
+
+<table border="1">
+<tr align="center">
+<td colspan="2">Distinguish each case that has the same Corner Orientation (CO) through the purple stickers.<br>For cases with letters, compare A and B, then B and C</td>
+<th><h1>pure</h1></th>
+<th><h1>diag</h1></th>
+<th><h1>back</h1></th>
+<th><h1>front</h1></th>
+<th><h1>left</h1></th>
+<th><h1>right</h1></th>
+</tr>
+
+<!-- O --->
+<tr align="center">
+    <th rowspan="2" colspan="2"><twisty-player alg="" class="compcmllo"></twisty-player></th>
+    <th><twisty-player alg="U4" class="cube_cmll"></twisty-player></th>
+    <th><twisty-player alg="F R U' R' U' R U R' F' R U R' U' R' F R F'" class="cube_cmll"></twisty-player></th>
+    <th colspan="4"><twisty-player alg="R U R' F' R U R' U' R' F R2 U' R'" class="cube_cmll"></twisty-player></th>
+</tr>
+<tr align="center">
+    <td></td>
+    <td>F R U' R' U' R U R' F' R U R' U' R' F R F'<br><span class="for-oh">R' U R U' R' f' U' R U2 R' U' R U' R' f R</span></td>
+    <td colspan="4">R U R' F' R U R' U' R' F R2 U' R'<br><span class="for-oh">R U' F U' R' U' R U F' U2' R'</span></td>
+</tr>
+
+<!-- H --->
+<tr align="center">
+    <th rowspan="2" colspan="2"><twisty-player alg="" class="compcmllh"></twisty-player></th>
+    <th><twisty-player alg="R U R' U R U' R' U R U2' R'" class="cube_cmll"></twisty-player></th>
+    <th><twisty-player alg="U' F U R U' R' U R U' R' U R U' R' F'" class="cube_cmll"></twisty-player></th>
+    <th colspan="2"><twisty-player alg="R U2' R2' F R F' U2 R' F R F'" class="cube_cmll"></twisty-player></th>
+    <th colspan="2"><twisty-player alg="U' r U' r2' D' r U' r' D r2 U r'" class="cube_cmll"></twisty-player></th>
+</tr>
+<tr align="center">
+    <td>R U R' U R U' R' U R U2' R'</td>
+    <td>(U') F U R U' R' U R U' R' U R U' R' F'<br><span class="for-oh">the inverse</span></td>
+    <td colspan="2">R U2' R2' F R F' U2 R' F R F'<br><span class="for-oh">F R U' R' U R U2' R' U' R U R' U' F'<br>(U2) F R U R' U' R U' R' U R U R' F'</span></td>
+    <td colspan="2">(U') r U' r2' D' r U' r' D r2 U r'<br><span class="for-oh">R U R' U r U r' F R' F' R</span></td>
+</tr>
+
+<!-- P --->
+<tr align="center">
+    <th rowspan="2" colspan="2"><twisty-player alg="" class="compcmllp"></twisty-player></th>
+    <th><twisty-player alg="F R U R' U' R U R' U' F'" class="cube_cmll"></twisty-player></th>
+    <th><twisty-player alg="U2 R U R' U R U' B U' B' R'" class="cube_cmll"></twisty-player></th>
+    <th><twisty-player alg="U F R' F' R U2 R U' R' U R U2' R'" class="cube_cmll"></twisty-player></th>
+    <th><twisty-player alg="R U2' R' U' R U R' U2' R' F R F'" class="cube_cmll"></twisty-player></th>
+    <th><twisty-player alg="U' r U' r2' D' r U r' D r2 U r'" class="cube_cmll"></twisty-player></th>
+    <th><twisty-player alg="U' R' F R U F U' R U R' U' F'" class="cube_cmll"></twisty-player></th>
+</tr>
+<tr align="center">
+    <td>F R U R' U' R U R' U' F'</td>
+    <td>(U2) R U R' U R U' B U' B' R'<br><span class="for-oh">(U2) R' U' R U' R' U F' U F R<br><span class="for-oh">R' F' U' F U' R U R' U R</span></td>
+    <td>(U) F R' F' R U2 R U' R' U R U2' R'<br><span class="for-oh">(U2) R' U2' R U R' U' R U2' R f' U' f</span></td>
+    <td>R U2' R' U' R U R' U2' R' F R F'</td>
+    <td>(U') r U' r2' D' r U r' D r2 U r'<br><span class="for-oh">(U2) R' F R F' r U' r' U' R U' R'</td>
+    <td>(U') R' F R U F U' R U R' U' F'<br><span class="for-oh">(U') F R U' R' U' R U R' U R U' R' F'</td>
+</tr>
+
+<!-- U --->
+<tr align="center">
+    <th rowspan="2"><twisty-player alg="" class="compcmllu1"></twisty-player></th>
+    <th rowspan="2"><twisty-player alg="" class="compcmllu2"></twisty-player></th>
+    <th><twisty-player alg="(U2) R' U' R U' R' U2 R2 U R' U R U2' R'" class="cube_cmll"></twisty-player></th>
+    <th><twisty-player alg="U F R U R' U' F'" class="cube_cmll"></twisty-player></th>
+    <th><twisty-player alg="R' F R U' R F R' U R F' R'" class="cube_cmll"></twisty-player></th>
+    <th><twisty-player alg="U F R2 D R' U R D' R2' U' F'" class="cube_cmll"></twisty-player></th>
+    <th><twisty-player alg="R2 D R' U2 R D' R' U2 R'" class="cube_cmll"></twisty-player></th>
+    <th><twisty-player alg="(U2) R2' D' R U2 R' D R U2 R" class="cube_cmll"></twisty-player></th>
+</tr>
+<tr align="center">
+    <td>(U2) R' U' R U' R' U2 R2 U R' U R U2' R'<br>R U R' U R U2' R2' U' R U' R' U2' R</td>
+    <td>(U) F R U R' U' F'<br>(U') F U R U' R' F'</td>
+    <td>R' F R U' R F R' U R F' R'<br><span class="for-oh">(U2) R' U2' R U F U' R' U2' R U F'</span></td>
+    <td>(U) F R2 D R' U R D' R2' U' F'<br><span class="for-oh">R' U' R U F R U R' U' R' U R U' F'<br>(U') R' U R U' F U R' U' R U R U' R' F'</span></td>
+    <td>R2 D R' U2 R D' R' U2 R'<br><span class="for-oh">(U2) R' U2' R U2 F U' R' U R U F'</span></td>
+    <td>(U2) R2' D' R U2 R' D R U2 R<br><span class="for-oh">(U2) R' U R U2' R U2 R' U' R U' f' U' f</span></td>
+</tr>
+
+<!-- T --->
+<tr align="center">
+    <th rowspan="2"><twisty-player alg="" class="compcmllt1"></twisty-player></th>
+    <th rowspan="2"><twisty-player alg="" class="compcmllt2"></twisty-player></th>
+    <th><twisty-player alg="(U2) F R' F R2 U' R' U' R U R' F2'" class="cube_cmll"></twisty-player></th>
+    <th><twisty-player alg="(U2) R2' U' R F R' U R2 U' R' F' R" class="cube_cmll"></twisty-player></th>
+    <th><twisty-player alg="(U2) R F R' U' R F' R' U R' F' R" class="cube_cmll"></twisty-player></th>
+    <th><twisty-player alg="(U2) r' U r U2' R2' F R F' R" class="cube_cmll"></twisty-player></th>
+    <th><twisty-player alg="(U) F R U' R' U R U R' F'" class="cube_cmll"></twisty-player></th>
+    <th><twisty-player alg="(U) R U R' U' R' F R F'" class="cube_cmll"></twisty-player></th>
+</tr>
+<tr align="center">
+    <td>(U2) F R' F R2 U' R' U' R U R' F2'<br><span class="for-oh">R U' R' U2' R U R' U2' R U R' U R U' R'</span><br><span class="for-oh">(U2) R U2 R' U' R U' R2' U2' R U R' U R</span></td>
+    <td>(U2) R2' U' R F R' U R2 U' R' F' R<br><span class="for-oh">(U2) R' U' R U' R' U R U' R' U F' U F R</span></td>
+    <td>(U2) R F R' U' R F' R' U R' F' R<br><span class="for-oh">F R U R' U' R U' R' U' R U R' F'</span></td>
+    <td>(U2) r' U r U2' R2' F R F' R<br><span class="for-oh">(U2) R U R2' F R F' U r U r'</span></td>
+    <td>(U) F R U' R' U R U R' F'<br><span class="for-oh">(U) R' U' R U R f' U' f</span></td>
+    <td>(U) R U R' U' R' F R F'</td>
+</tr>
+
+<!-- S --->
+<tr align="center">
+    <th rowspan="2"><twisty-player alg="" class="compcmlls1"></twisty-player></th>
+    <th rowspan="2"><twisty-player alg="" class="compcmlls2"></twisty-player></th>
+    <th><twisty-player alg="(U) R U R' U R U2' R'" class="cube_cmll"></twisty-player></th>
+    <th><twisty-player alg="(U') R U R' U R' F R F' R U2' R'" class="cube_cmll"></twisty-player></th>
+    <th><twisty-player alg="(U) F R' F' R U2 R U2' R'" class="cube_cmll"></twisty-player></th>
+    <th><twisty-player alg="(U) R U' L' U R' U' L" class="cube_cmll"></twisty-player></th>
+    <th><twisty-player alg="(U) L' U2 L U2' L F' L' F" class="cube_cmll"></twisty-player></th>
+    <th><twisty-player alg="(U2) r' D' r U r' D r U' F R' F' R" class="cube_cmll"></twisty-player></th>
+</tr>
+<tr align="center">
+    <td>(U) R U R' U R U2' R'<br>R' U2' R U R' U R</td>
+    <td>(U') R U R' U R' F R F' R U2' R'</td>
+    <td>(U) F R' F' R U2 R U2' R'</td>
+    <td>(U) R U' L' U R' U' L<br><span class="for-oh">(U) r U' r' F R' F' R</span></td>
+    <td>(U) L' U2 L U2' L F' L' F<br><span class="for-oh">(U') R' U2' R U2 R f' U' f</span></td>
+    <td>(U2) r' D' r U r' D r U' F R' F' R<br><span class="for-oh">(U2) R' U' R U' R' U2' F R F' r U r'</span></td>
+</tr>
+
+<!-- A --->
+<tr align="center">
+    <th rowspan="2"><twisty-player alg="" class="compcmlla1"></twisty-player></th>
+    <th rowspan="2"><twisty-player alg="" class="compcmlla2"></twisty-player></th>
+    <th><twisty-player alg="(U2) R U2' R' U' R U' R'" class="cube_cmll"></twisty-player></th>
+    <th><twisty-player alg="(U) R U2' R' F R' F' R U' R U' R'" class="cube_cmll"></twisty-player></th>
+    <th><twisty-player alg="(U') F' L F L' U2' L' U2 L" class="cube_cmll"></twisty-player></th>
+    <th><twisty-player alg="(U') L' U R U' L U R'" class="cube_cmll"></twisty-player></th>
+    <th><twisty-player alg="(U) R' F R F' U r' D' r U' r' D r" class="cube_cmll"></twisty-player></th>
+    <th><twisty-player alg="(U') R U2' R' U2 R' F R F'" class="cube_cmll"></twisty-player></th>
+</tr>
+<tr align="center">
+    <td>(U2) R U2' R' U' R U' R'<br>R' U' R U' R' U2 R</td>
+    <td>(U) R U2' R' F R' F' R U' R U' R'<br><span class="for-oh">R' U' R U' R' U R' F R' F' U R</span></td>
+    <td>(U') F' L F L' U2' L' U2 L<br><span class="for-oh">(U2) F R U' R' U R U2 R' U' F'</span></td>
+    <td>(U') L' U R U' L U R<br><span class="for-oh">(U') R' F R F' r U r'</span></td>
+    <td>(U) R' F R F' U r' D' r U' r' D r<br><span class="for-oh">r U' r' F R' F' U2' R U R' U R</span></td>
+    <td>(U') R U2' R' U2 R' F R F'</td>
+</tr>
+
+<!-- L --->
+<tr align="center"> <!-- L --->
+    <th rowspan="2"><twisty-player alg="" class="compcmlll1"></twisty-player></th>
+    <th rowspan="2"><twisty-player alg="" class="compcmlll2"></twisty-player></th>
+    <th><twisty-player alg="R U R' U R U' R' U R U' R' U R U2' R'" class="cube_cmll"></twisty-player></th>
+    <th><twisty-player alg="(U2) R U2' R2' F R F' R U2' R'" class="cube_cmll"></twisty-player></th>
+    <th><twisty-player alg="(U2) F R U' R' U' R U R' F'" class="cube_cmll"></twisty-player></th>
+    <th><twisty-player alg="(U2) R U2 R D R' U2 R D' R2'" class="cube_cmll"></twisty-player></th>
+    <th><twisty-player alg="(U2) F R' F' R U R U' R'" class="cube_cmll"></twisty-player></th>
+    <th><twisty-player alg="(U) R' U2 R' D' R U2 R' D R2" class="cube_cmll"></twisty-player></th>
+</tr>
+<tr align="center">
+    <td>R U R' U R U' R' U R U' R' U R U2' R'<br><span class="for-oh">(U') R' U2' R U R' U' R U R' U' R U R' U R</span></td>
+    <td>(U2) R U2' R2' F R F' R U2' R'<br><span class="for-oh">R' U' R U' F U' R' U' R U F'</span></td>
+    <td>(U2) F R U' R' U' R U R' F'</td>
+    <td>(U2) R U2 R D R' U2 R D' R2'<br><span class="for-oh">(U') F U' R' U' R U F' U2' R' U2 R</span></td>
+    <td>(U2) F R' F' R U R U' R'</td>
+    <td>(U) R' U2 R' D' R U2 R' D R2<br><span class="for-oh">(U') R' U' R U' R U R' U R U2' f' U' f</span></td>
+</tr>
+
+</table>
+</body>
+</html>
