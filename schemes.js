@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
   for (const [a, b] of Object.entries(compschemes)) {
     document.querySelectorAll(`twisty-player.compcmll${a}`).forEach((p) => {
       p.setAttribute("experimental-stickering", "picture");
-      p.setAttribute("experimental-sprite", `/comparison/${b}.png`);
+      p.setAttribute("experimental-sprite", `../../comparison/${b}.png`);
       p.setAttribute("background", "none");
       p.setAttribute("hint-facelets", "none");
       p.setAttribute("control-panel", "none");
